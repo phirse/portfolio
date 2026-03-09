@@ -26,9 +26,7 @@ function Hero() {
           Hello, I'm
         </motion.p>
         <motion.h1 className={styles.name} variants={fadeUp}>
-          <a href="https://instagram.com/chxnjh" target="_blank" rel="noopener noreferrer">
             Pisute Chen
-          </a>
         </motion.h1>
         <motion.p className={styles.role} variants={fadeUp}>
           Full-Stack Web Developer
