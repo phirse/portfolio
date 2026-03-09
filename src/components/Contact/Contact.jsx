@@ -6,10 +6,9 @@ const fadeUp = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
 }
 
+//label:'', url:'' format
 const socials = [
-  { label: 'GitHub', url: 'https://github.com' },
-  { label: 'LinkedIn', url: 'https://linkedin.com' },
-  { label: 'Twitter', url: 'https://twitter.com' },
+  {},
 ]
 
 function Contact() {
@@ -32,61 +31,37 @@ function Contact() {
         whileInView="visible"
         viewport={{ once: true }}
       >
-        <form
-          className={styles.form}
-          action="mailto:hello@example.com"
-          method="POST"
-          encType="text/plain"
-        >
-          <div className={styles.field}>
-            <label htmlFor="name" className={styles.label}>
-              Name
-            </label>
-            <input
-              id="name"
-              name="name"
-              type="text"
-              required
-              className={styles.input}
-              placeholder="Your name"
-            />
+        <div className={styles.contactDetails}>
+          <div className={styles.contactItem}>
+            <span>Email</span>
+            <a href="mailto:portncf112st@gmail.com" className={styles.contactLink}>
+              portncf112st@gmail.com
+            </a>
           </div>
-          <div className={styles.field}>
-            <label htmlFor="email" className={styles.label}>
-              Email
-            </label>
-            <input
-              id="email"
-              name="email"
-              type="email"
-              required
-              className={styles.input}
-              placeholder="your@email.com"
-            />
+          <div className={styles.contactItem}>
+            <span>Phone</span>
+            <a href="tel:0970985753" className={styles.contactLink}>
+              +66 0970985753
+            </a>
           </div>
-          <div className={styles.field}>
-            <label htmlFor="message" className={styles.label}>
-              Message
-            </label>
-            <textarea
-              id="message"
-              name="message"
-              rows={5}
-              required
-              className={styles.textarea}
-              placeholder="Your message..."
-            />
+          <div className={styles.contactItem}>
+            <span>Instagram</span>
+            <a
+              href="https://instagram.com/chxnjh"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.contactLink}
+            >
+              @chxnjh
+            </a>
           </div>
-          <button type="submit" className={styles.submit}>
-            Send Message
-          </button>
-        </form>
+        </div>
 
         <div className={styles.info}>
           <h3 className={styles.infoTitle}>Let's connect</h3>
           <p className={styles.infoText}>
             I'm always open to new opportunities and collaborations. Feel free
-            to reach out through the form or connect with me on social media.
+            to reach out via the details below or connect with me on social media.
           </p>
           <div className={styles.socials}>
             {socials.map((s) => (

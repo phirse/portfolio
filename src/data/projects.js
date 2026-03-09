@@ -1,43 +1,27 @@
 const projects = [
   {
     id: 1,
-    title: 'E-Commerce Platform',
+    title: 'KeyChron E-Commerce Website',
     description:
-      'A full-stack e-commerce application with user authentication, product catalog, shopping cart, and payment integration.',
-    image: `${import.meta.env.BASE_URL}projects/project-1.svg`,
-    tech: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-    github: 'https://github.com',
-    live: 'https://example.com',
+      'I created a clone of the KeyChron Thailand website, a keyboard e-commerce platform. The tech stack included Figma, MySQL Workbench, HTML, CSS, and JavaScript. Through this project, I learned the basics of these languages to strengthen my development fundamentals. The most challenging aspect was ensuring seamless integration between the frontend and backend.',
+    image: `${import.meta.env.BASE_URL}projects/project-1.png`,
+    tech: ['HTML', 'JavaScript', 'CSS', 'MySQL', 'Figma'],
   },
   {
     id: 2,
-    title: 'Task Management App',
+    title: 'Project Tracking System',
     description:
-      'A collaborative task management tool with real-time updates, drag-and-drop boards, and team workspaces.',
-    image: `${import.meta.env.BASE_URL}projects/project-2.svg`,
-    tech: ['React', 'Firebase', 'CSS Modules'],
-    github: 'https://github.com',
-    live: 'https://example.com',
+      'I built this Online Classroom Platform to practice building complex, interactive web applications. Using React for the frontend and Node.js with SQL for the backend. A key achievement in this project was implementing the logic for assignment creation and grading, as well as handling different user permissions securely. ',
+    image: `${import.meta.env.BASE_URL}projects/project-2.png`,
+    tech: ['React', 'MySQL', 'CSS', 'JavaScript', 'HTML', 'Figma'],
   },
   {
     id: 3,
-    title: 'Weather Dashboard',
+    title: 'ERP System (Codebase from IDURAR)',
     description:
       'A weather dashboard that displays current conditions, forecasts, and interactive maps using multiple weather APIs.',
-    image: `${import.meta.env.BASE_URL}projects/project-3.svg`,
-    tech: ['JavaScript', 'REST APIs', 'Chart.js'],
-    github: 'https://github.com',
-    live: 'https://example.com',
-  },
-  {
-    id: 4,
-    title: 'AI Chat Interface',
-    description:
-      'A clean chat interface for interacting with language models, featuring markdown rendering and conversation history.',
-    image: `${import.meta.env.BASE_URL}projects/project-4.svg`,
-    tech: ['React', 'Python', 'FastAPI', 'WebSocket'],
-    github: 'https://github.com',
-    live: 'https://example.com',
+    image: `${import.meta.env.BASE_URL}projects/project-3.png`,
+    tech: ['JavaScript', 'Node.js','Express', 'MongoDB', 'React', 'HTML', 'CSS'],
   },
 ]
 

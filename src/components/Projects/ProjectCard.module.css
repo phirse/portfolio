@@ -55,20 +55,3 @@
   color: var(--color-accent);
   font-weight: 500;
 }
-
-.links {
-  display: flex;
-  gap: var(--spacing-sm);
-}
-
-.linkBtn {
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: var(--color-accent);
-  transition: color 0.2s;
-}
-
-.linkBtn:hover {
-  color: var(--color-accent-hover);
-  text-decoration: underline;
-}

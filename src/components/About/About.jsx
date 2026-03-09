@@ -10,10 +10,9 @@ const skills = [
   'Git',
   'REST APIs',
   'MongoDB',
-  'PostgreSQL',
+  'MySQL',
   'Docker',
   'Figma',
-  'TypeScript',
 ]
 
 const fadeUp = {
@@ -43,10 +42,14 @@ function About() {
           viewport={{ once: true }}
         >
           <p>
-            I'm a passionate full-stack developer with a love for building
-            clean, user-friendly applications. With experience across the
-            entire development stack, I enjoy turning complex problems into
-            simple, elegant solutions.
+            I’m Chen, a 19-year-old sophomore majoring in the
+            Bachelor of Science in Information and Communication
+            Technology at Mahidol University. I’m interested in
+            front-end and back-end development, UX/UI design,
+            data analysis, and quality assurance. Although I have
+            limited real-world work experience, I’m highly
+            motivated, detail-oriented, and always eager to learn
+            and take on new challenges.
           </p>
           <p>
             When I'm not coding, you can find me exploring new technologies,

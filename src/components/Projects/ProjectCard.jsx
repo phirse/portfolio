@@ -1,16 +1,30 @@
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import styles from './ProjectCard.module.css'
+import ImageLightbox from './ImageLightbox'
 
 function ProjectCard({ project }) {
+  const [lightboxOpen, setLightboxOpen] = useState(false)
+
   return (
     <motion.article
       className={styles.card}
       whileHover={{ y: -4 }}
       transition={{ type: 'tween', duration: 0.2 }}
     >
-      <div className={styles.imageWrapper}>
+      <div
+        className={styles.imageWrapper}
+        onClick={() => setLightboxOpen(true)}
+        style={{ cursor: 'pointer' }}
+      >
         <img src={project.image} alt={project.title} className={styles.image} />
       </div>
+      <ImageLightbox
+        src={project.image}
+        alt={project.title}
+        isOpen={lightboxOpen}
+        onClose={() => setLightboxOpen(false)}
+      />
       <div className={styles.body}>
         <h3 className={styles.title}>{project.title}</h3>
         <p className={styles.description}>{project.description}</p>
@@ -20,24 +34,6 @@ function ProjectCard({ project }) {
               {t}
             </span>
           ))}
-        </div>
-        <div className={styles.links}>
-          <a
-            href={project.github}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.linkBtn}
-          >
-            GitHub
-          </a>
-          <a
-            href={project.live}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.linkBtn}
-          >
-            Live Demo
-          </a>
         </div>
       </div>
     </motion.article>
