@@ -51,11 +51,6 @@ function About() {
             motivated, detail-oriented, and always eager to learn
             and take on new challenges.
           </p>
-          <p>
-            When I'm not coding, you can find me exploring new technologies,
-            contributing to open-source projects, or sharing knowledge with
-            the developer community.
-          </p>
         </motion.div>
 
         <motion.div
