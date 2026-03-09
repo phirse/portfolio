@@ -19,7 +19,7 @@ const projects = [
     id: 3,
     title: 'ERP System (Codebase from IDURAR)',
     description:
-      'A weather dashboard that displays current conditions, forecasts, and interactive maps using multiple weather APIs.',
+      'I have cloned the IDURAR repository to develop custom ERP/CRM features tailored for an electrodeposition coating company.',
     image: `${import.meta.env.BASE_URL}projects/project-3.png`,
     tech: ['JavaScript', 'Node.js','Express', 'MongoDB', 'React', 'HTML', 'CSS'],
   },
