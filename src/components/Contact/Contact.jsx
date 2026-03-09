@@ -6,9 +6,8 @@ const fadeUp = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
 }
 
-//label:'', url:'' format
+//{label:'', url:''} format
 const socials = [
-  {},
 ]
 
 function Contact() {

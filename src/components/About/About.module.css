@@ -1,5 +1,6 @@
 .about {
   background: var(--color-bg-alt);
+  transition: background 0.3s;
 }
 
 .grid {
@@ -31,18 +32,20 @@
 .chip {
   display: inline-block;
   padding: 0.4rem 1rem;
-  background: var(--color-bg);
+  background: var(--color-card-bg);
+  backdrop-filter: blur(8px);
   border: 1px solid var(--color-border);
   border-radius: 50px;
   font-size: 0.9rem;
   font-weight: 500;
   color: var(--color-text);
-  transition: border-color 0.2s, color 0.2s;
+  transition: border-color 0.2s, color 0.2s, box-shadow 0.2s;
 }
 
 .chip:hover {
   border-color: var(--color-accent);
   color: var(--color-accent);
+  box-shadow: 0 0 12px var(--color-glow);
 }
 
 @media (max-width: 768px) {
