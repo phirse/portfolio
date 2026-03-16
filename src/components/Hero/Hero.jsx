@@ -29,15 +29,14 @@ function Hero() {
             Pisute Chen
         </motion.h1>
         <motion.p className={styles.role} variants={fadeUp}>
-          Full-Stack Web Developer
+          Information Communication and Technology Student
         </motion.p>
         <motion.p className={styles.tagline} variants={fadeUp}>
-          I build modern, performant web experiences with clean code and
-          thoughtful design.
+          an ICT student passionate about web development. I spend my free time building websites to practice my coding skills and continuously improve myself.
         </motion.p>
         <motion.div className={styles.cta} variants={fadeUp}>
           <a href="#projects" className={styles.btnPrimary}>
-            View My Work
+            View My Works
           </a>
           <a href="#contact" className={styles.btnSecondary}>
             Get in Touch
