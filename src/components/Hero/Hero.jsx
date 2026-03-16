@@ -32,7 +32,7 @@ function Hero() {
           Information Communication and Technology Student
         </motion.p>
         <motion.p className={styles.tagline} variants={fadeUp}>
-          an ICT student passionate about web development. I spend my free time building websites to practice my coding skills and continuously improve myself.
+          I passionate about web development. I spend my free time building websites to practice my coding skills and continuously improve myself.
         </motion.p>
         <motion.div className={styles.cta} variants={fadeUp}>
           <a href="#projects" className={styles.btnPrimary}>
